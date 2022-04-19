@@ -1,3 +1,4 @@
+import { DialogModule } from 'primeng/dialog';
 import { ContextMenuModule } from 'primeng/contextmenu';
 import {
   HttpClient,
@@ -32,6 +33,7 @@ import { MenuModule } from 'primeng/menu';
     FieldsetModule,
     MenuModule,
     ContextMenuModule,
+    DialogModule,
   ],
   providers: [NodeService],
   bootstrap: [AppComponent],

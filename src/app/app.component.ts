@@ -13,6 +13,7 @@ export class AppComponent implements OnInit {
   files: TreeNode[] = [];
   public selectedNode!: TreeNode;
   public displayBasic: boolean = false;
+  public typeAction: string = '';
 
   constructor(private nodeService: NodeService) {}
 
@@ -45,14 +46,20 @@ export class AppComponent implements OnInit {
   }
 
   public newChildren(node: TreeNode) {
+    this.typeAction = 'new';
     console.log('Adicionar Registro: ', node);
+    this.displayBasic = true;
   }
   public editnode(node: TreeNode) {
+    this.typeAction = 'edit';
     console.log('Editar Registro: ', node);
+    this.displayBasic = true;
   }
 
   public removeNode(node: TreeNode) {
+    this.typeAction = 'remove';
     console.log('Remover Registro: ', node);
+    this.displayBasic = true;
   }
 
   expandAll() {
