@@ -1,0 +1,22 @@
+{
+  "data":
+  [
+      {
+          "label": "Média",
+          "expandedIcon": "pi pi-folder-open",
+          "collapsedIcon": "pi pi-folder",
+          "children": [{"label": "Prova Parcial", "icon": "pi pi-file", "data": "Expenses Document"},
+            {"label": "Prova Final", "icon": "pi pi-file", "data": "Expenses Document"}]
+      },
+      {
+          "label": "Exame",
+          "expandedIcon": "pi pi-folder-open",
+          "collapsedIcon": "pi pi-folder"
+      },
+      {
+          "label": "2ª Época",
+          "expandedIcon": "pi pi-folder-open",
+          "collapsedIcon": "pi pi-folder"
+      }
+  ]
+}
